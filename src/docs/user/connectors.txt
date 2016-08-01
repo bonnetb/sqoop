@@ -385,7 +385,7 @@ Argument                              Description
                                       This option specifies the error threshold\
                                       per mapper while transferring data. If\
                                       the number of errors encountered exceed\
-                                      this threshold then the job will fail.
+                                      this threshold then the job will fail.\
                                       Default value is 1.
 +--log-dir+                           Applicable only for direct mode export.\
                                       Specifies the directory where Netezza\
@@ -422,6 +422,9 @@ Argument                              Description
                                       into char/nchar/varchar/nvarchar \
                                       columns.\
                                       Default is false.
++--encoding+                          Applicable only for direct mode import.\
+                                      Specifies the table encoding in Netezza.\
+                                      Default is UTF-8.
 --------------------------------------------------------------------------------
 
 
